@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wolvenkit-q003-inspector",
+  "version": "0.1.0",
+  "description": "Return a read-only metadata report for Cyberpunk 2077 q003 quest resources and safely manage local WolvenKit scripts.",
+  "author": {
+    "name": "Friendly-13"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Friendly-13/wolvenkit-q003-inspector",
+  "keywords": [
+    "wolvenkit",
+    "wscript",
+    "cyberpunk-2077",
+    "modding",
+    "codex"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "WolvenKit Q003 Inspector",
+        "shortDescription": "Read q003 quest metadata",
+        "longDescription": "Run a read-only WolvenKit report over three q003 quest resources, including node metadata, fact operations, sockets, connections, and scene-exit traces. Also offers guarded local WScript editing tools.",
+        "developerName": "Friendly-13",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": "Use WolvenKit Q003 Inspector to read the latest q003 metadata report or safely edit local WolvenKit WScript automation."
+      }
+    }
+  }
+}
