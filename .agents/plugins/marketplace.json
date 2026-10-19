@@ -1,0 +1,20 @@
+{
+  "name": "wolvenkit-q003-inspector",
+  "interface": {
+    "displayName": "WolvenKit Q003 Inspector"
+  },
+  "plugins": [
+    {
+      "name": "wolvenkit-q003-inspector",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
