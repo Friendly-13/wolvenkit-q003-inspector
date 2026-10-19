@@ -1,0 +1,3 @@
+.codex-backups/
+*.tmp
+node_modules/
